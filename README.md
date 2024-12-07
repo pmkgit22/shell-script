@@ -1,1 +1,2 @@
-# shell-script
+### shell-script
+thi is my learning thuhhk,
