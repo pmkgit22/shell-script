@@ -3,5 +3,8 @@
 echo " this is second file"
 x=nani
 y=swathi
+per1=$1
+per2=$2
 DATE=$(date)
 echo "$x fuck $y hardlyat at $DATE"
+echo "$per1 is talking to $per2"
