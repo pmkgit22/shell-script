@@ -3,7 +3,7 @@ NUM=$1
 
 if [ NUM -gt 10 ]
 then
-echo "this is larger than ten"
+echo "$NUM this is larger than ten"
 else
-echo " this is smaller than 10"
+echo " $NUM this is smaller than 10"
 fi
