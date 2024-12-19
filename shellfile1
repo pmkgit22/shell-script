@@ -4,4 +4,4 @@ echo " this is second file"
 x=nani
 y=swathi
 DATE=$(date)
-echo "$x fuck $y hardlyat at DATE"
+echo "$x fuck $y hardlyat at $DATE"
