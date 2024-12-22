@@ -3,6 +3,8 @@ DATE=$(date +%x_%r)
 SCRIPT_NAME=$0
 LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
 
+echo "we are in functionscript name $SCRIPT_NAME"
+
 #Giving Colors
 R="\e[31m"
 G="\e[321m"
