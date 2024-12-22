@@ -22,13 +22,13 @@ fi
 }
 USERID= $(id -u)
 
-if[ $USERID -ne 0 ]
-then
-echo "ERRORed: this is first fuck"
+#if[ $USERID -ne 0 ]
+#then
+#echo "ERRORed: this is first fuck"
 
-else
-echo "torey : this is bokkaaa"
-fi
+#else
+#echo "torey : this is bokkaaa"
+#fi
 
 echo "this nani first line" $DATE &>>$LOGFILE
 Validate $? " his is first line locally"
