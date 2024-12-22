@@ -28,10 +28,10 @@ echo "this is user:  $USERID"
 #echo "torey : this is bokkaaa"
 #fi
 
-echo "this nani first line" $USERID  $DATE &>>$LOGFILE
+echo "this nani first line"&>>$LOGFILE
 Validate $? " his is first line locally"
 
-echo "this nani Second fuck line" $DATE &>>$LOGFILE
+echo "this nani Second fuck line"&>>$LOGFILE
 
 Validate $? " his second calling function"
 
