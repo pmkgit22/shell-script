@@ -11,16 +11,12 @@ N="\e[0m"
 #this function should validate previous command in form user about status
 Validate(){
 
-if [ $1 -ne 0]
-then
-echo -e "$2 --- $R sucess"
-
-else
-echo -e " $2---- $G  failuree"
-
-fi
+echo "we are in function and argumentone $1"
+echo "we are in function and argtwo  $2"
 }
 USERID= $(id -u)
+
+echo "this is user:  $USERID"
 
 #if[ $USERID -ne 0 ]
 #then
@@ -35,4 +31,5 @@ Validate $? " his is first line locally"
 
 echo "this nani Second fuck line" $DATE &>>$LOGFILE
 
-Validate 
+Validate $? " his second calling function"
+
