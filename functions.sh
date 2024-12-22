@@ -1,5 +1,5 @@
 #!/bin/bash
-DATE=$(date +%x_%r)
+DATE=$(date)
 SCRIPT_NAME=$0
 LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
 
@@ -31,7 +31,7 @@ echo "this is user:  $USERID"
 echo "this nani first line"&>>$LOGFILE
 Validate $? " his is first line locally"
 
-echo "this nani Second fuck line"&>>$LOGFILE
+echo "this nani Second fuck line" $DATE &>>$LOGFILE
 
 Validate $? " his second calling function"
 
