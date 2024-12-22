@@ -1,5 +1,9 @@
 #!/bin/bash
 NUM=$1
+persons=("ramesh"suresh"lokesh"123"")
+echo " allpersons $persons "
+echo " first person $persons(0)"
+echo " second name $persons(1)"
 
 if [ $NUM -gt 10 ]
 then
