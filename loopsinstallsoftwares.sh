@@ -7,7 +7,8 @@ echo "The user Id is : $USERID"
 
 if [ $USERID -ne 0 ];
  then
-  echo -e "$R ERROR: this is not super user$N"
+  echo -e "$R ERROR: this is not super user"
+  exit 1
  else
   echo -e " $B MESS: this is root user good"
 fi
