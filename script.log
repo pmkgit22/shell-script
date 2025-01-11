@@ -1,0 +1,32 @@
+[0;32mStarting package installation process...[0m
+[0;32mInstalling package: package1...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package1.[0m
+[0;32mInstalling package: package2...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package2.[0m
+[0;32mInstalling package: package3...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package3.[0m
+[0;32mInstalling package: package4...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package4.[0m
+[0;32mInstalling package: package5...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package5.[0m
+[0;32mInstalling package: package6...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package6.[0m
+[0;32mInstalling package: package7...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package7.[0m
+[0;32mInstalling package: package8...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package8.[0m
+[0;32mInstalling package: package9...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package9.[0m
+[0;32mInstalling package: package10...[0m
+exampleloop.sh: line 30: sudo: command not found
+[0;31mFailed to install package: package10.[0m
+[0;32mScript completed. Check script.log for details.[0m
