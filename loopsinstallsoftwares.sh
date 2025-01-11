@@ -6,4 +6,5 @@ B="\e[33m"
 echo "fuck"
 
 if [ $USERID -ne 0 ]
-echo "this is in if condition"
+echo -e "$R this is in if condition"
+fi
