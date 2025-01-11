@@ -9,7 +9,7 @@ echo "fuck"
 
 #userid=0  # Set userid to some value, for testing purposes.
 
-if [ "$USERID" -ne 0 ]; then
+if [ $USERID -ne 0 ]; then
   echo "User ID is not zero."
 else
   echo "User ID is zero."
