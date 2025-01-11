@@ -3,14 +3,12 @@ USERID=$(id -u )
 R="\e[31m"
 N="\e[0m"
 B="\e[33m"
-echo "fuck : $USERID"
+echo "The user Id is : $USERID"
 
-#!/bin/bash
-
-#userid=0  # Set userid to some value, for testing purposes.
-
-if [ $USERID -ne 0 ]; then
-  echo "User ID is not root zero."
-else
-  echo "User ID is root zero."
+if [ $USERID -ne 0 ];
+ then
+  echo -e "$R ERROR: this is not super user"
+ else
+  echo -e " $B MESS: this is root user good"
 fi
+echo -e "$N Message :still continuing with out exit ID: $USERID"
