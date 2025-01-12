@@ -9,7 +9,7 @@ R="\e[31m"
 N="\e[0m"
 B="\e[34m"
 
-echo -e "$R files before to delete  $(ls -l) $N"
+echo -e "$R files before to delete  $APPLOG_FILE$(ls -l) $N"
 FILES_TO_DELETE=$(find $APPLOG_FILES -name "*.log" -type f -mtime +14)
 
 echo " files to delete : $FILES_TO_DELETE"
