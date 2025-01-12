@@ -8,9 +8,7 @@ LOGFILE=$LOGDIR/$0-$DATE.log
 R="\e[31m"
 N="\e[0m"
 B="\e[34m"
-files=$($APPLOG_FILES $(ls -l))
 
-echo -e "$R files before to delete  $files $N"
 FILES_TO_DELETE=$(find $APPLOG_FILES -name "*.log" -type f -mtime +14)
 
 echo " files to delete : $FILES_TO_DELETE"
