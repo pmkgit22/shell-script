@@ -16,7 +16,7 @@ if [ $USERID -ne 0 ];
  #else
 #echo -e " $B MESS: this is root user good"
 fi
-#echo -e "$N Message :still continuing with out exit ID: $USERID"
+#echo -e "$N Message :stillthis  continuing with out exit ID: $USERID"
 Validate(){
  if [ $1 -ne 0 ];
   then
