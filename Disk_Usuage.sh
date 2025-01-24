@@ -30,3 +30,5 @@ while IFS= read line
  done <<<  $DISK_USAGE
 
 echo -e "message : $Message"
+#this will call other script for mail format
+sh mail.sh "pmk.kumar22@gmail.com" "High Disk Usage" "$Message" "Nani Team" " Disk Usage ALert"
