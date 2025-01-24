@@ -24,9 +24,9 @@ while IFS= read line
  # this is to compare disk 
    if [ $Usage -gt $DISK_USAGE_THRESHOLD ] ;
     then
-     Message+="High disk usage alert $Partition  : $Usage "
+     Message+="High disk usage alert $Partition  : $Usage \n"
    fi   
 
  done <<<  $DISK_USAGE
 
-echo "message : $Message"
+echo -e "message : $Message"
