@@ -14,6 +14,7 @@ LOGFILE=$MAILLOGDIR/$0-$DATE.log
 if [ $USERID -ne 0 ];
  then
  echo -e "$R ERROR : please login with root user$N"
+ exit 1
  else
   yum update -y --exclude=kernel* &>>$MAILLOGDIR
   yum -y install postfix cyrus-sasl-plain mailx &>>$MAILLOGDIR
