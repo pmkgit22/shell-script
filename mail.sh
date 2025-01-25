@@ -5,7 +5,7 @@
 
 TO_ADRESS=$1
 SUBJECT=$2
-BODY=$3
+BODY=$( sed -e 's/[\/&]/\\&/g' <<< $3 )
 TEAM_NAME=$4
 ALERT_TYPE=$5
 
@@ -15,3 +15,7 @@ FINAL_BODY=$( sed -e "s/TeamName/$TEAM_NAME/g" -e "s/Alert_Type/$ALERT_TYPE/g" -
 
 #echo "$BODY & Date $(date)" | mail -s "message" pmk.kumar22@gmail.com
 echo "$FINAL_BODY " | mail -s "$SUBJECT" $TO_ADRESS
+
+#echo "$FINAL_BODY " | mail -s "$(echo -e "$SUBJECT\nContent-Type: text/html")" $TO_ADRESS
+
+#$(echo -e "$SUBJECT\nContent-Type: text/html")
