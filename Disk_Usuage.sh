@@ -32,4 +32,4 @@ while IFS= read line
 echo -e "message : $Message"
 #this will call other script for mail format
 
-sh mail.sh "pmk.kumar22@gmail.com" "High Disk Usage" "$Message" "fucking Team" " Disk loaded Usage ALert"
+sh mail.sh "pmk.kumar22@gmail.com" "High fucki hard Disk Usage" "$Message" "fucking Team" " Disk loaded Usage ALert"
